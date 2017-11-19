@@ -1,0 +1,54 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url('./assets/fonts/roboto/Roboto-Regular.woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Roboto'), local('Roboto-Regular'), url('./assets/fonts/roboto/Roboto-Light.woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Roboto'), local('Roboto-Regular'), url('./assets/fonts/roboto/Roboto-Medium.woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Roboto'), local('Roboto-Regular'), url('./assets/fonts/roboto/Roboto-Thin.woff2');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Roboto'), local('Roboto-Regular'), url('./assets/fonts/roboto/Roboto-Bold.woff2');
+}
+@font-face {
+  font-family: 'Lane';
+  font-style: normal;
+  src: url('./assets/fonts/LANENAR_.ttf') format('truetype');
+}
+html {
+  font-size: 15px;
+  overflow-x: hidden;
+}
+body {
+  font-family: 'Roboto';
+  color: #212121;
+}
+h1, h2, .lane {
+  font-family: 'Lane';
+}
+body::-webkit-scrollbar {
+  width: 1em;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #212121;
+  outline: 1px solid #131313;
+}
