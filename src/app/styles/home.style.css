@@ -4,7 +4,6 @@
   display: block;
   margin-right: auto;
   margin-left: auto;
-
 }
 
 .principal {
@@ -18,10 +17,10 @@
   background: linear-gradient(to bottom, #ef00db 2%, #f009df 69%, #e54ed3 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef00db', endColorstr='#e54ed3', GradientType=0);
 }
-main, .texto {
+main, .home-texto {
     height: 100%;
 }
-.texto {
+.vertical-center-align {
   display: -webkit-flexbox;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -32,22 +31,59 @@ main, .texto {
   align-items: center;
   justify-content: center;
 }
-
-.texto h3 {
+.home-texto h3 {
   text-align: center;
 }
-
 div.albums-muestra div.col.m6 {
   padding: 0;
   display: grid;
   height: 100%;
 }
-
 .tienda-electronica h2 {
   font-size: 3.4rem;
   text-align: center;
 }
-
 .row .col.m6 {
   height: stretch;
+}
+.tienda-electronica .home-texto,
+.tienda-electronica .albums-muestra {
+  padding-bottom: 5rem;
+}
+.padding-3rem {
+  padding: 3rem 0 0 0;
+}
+.home-promotional.first {
+  background-image: url("../../assets/img/home/photo-1.jpg");
+}
+.home-promotional.second {
+  background-image: url("../../assets/img/home/photo-2.jpg");
+}
+.home-promotional {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-origin: content-box;
+}
+.home-promotional.padding-3rem {
+  background-origin: content-box;
+}
+.home-txt-lateral {
+  color: #fafafa;
+}
+.img-lateral {
+  max-width: 100% !important;
+}
+.home-promotional.row {
+  margin-bottom: 0;
+}
+.home-promotional.row .col {
+  padding: 0;
+}
+.home-txt-lateral h2 {
+  padding: 0 2rem;
+}
+.clearfix {
+  content: '';
+  padding: 2rem 0;
 }
