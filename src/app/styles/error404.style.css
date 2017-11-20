@@ -1,0 +1,21 @@
+.error404-contenedor {
+  min-height: 78vh;
+  max-width: 100vw;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.error404-contenedor h3 {
+  align-self: center;
+  color: #424242;
+  flex: 1 1 0;
+  display: block;
+}
+
+.error404-contenedor img {
+  flex: 1 1 0;
+  align-self: center;
+  height: 55vh;
+}
