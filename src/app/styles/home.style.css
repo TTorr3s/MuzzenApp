@@ -18,10 +18,10 @@
   background: linear-gradient(to bottom, #ef00db 2%, #f009df 69%, #e54ed3 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef00db', endColorstr='#e54ed3', GradientType=0);
 }
-main, .texto {
+main, .home-texto {
     height: 100%;
 }
-.texto {
+.home-texto {
   display: -webkit-flexbox;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -33,7 +33,7 @@ main, .texto {
   justify-content: center;
 }
 
-.texto h3 {
+.home-texto h3 {
   text-align: center;
 }
 
