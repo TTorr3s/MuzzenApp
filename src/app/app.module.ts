@@ -6,6 +6,7 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home.component';
 import { Error404Component } from './components/error404.component';
+import { LoginComponent } from './components/login.component';
 
 // Rutas
 import { routing, appRoutingProviders } from './app.routing';
@@ -15,7 +16,8 @@ import { routing, appRoutingProviders } from './app.routing';
   declarations: [
     AppComponent,
     Error404Component,
-    HomeComponent
+    HomeComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
